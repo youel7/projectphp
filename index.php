@@ -16,8 +16,7 @@
 		
 	</head>
 	<body>
-		<div class="container"> <h1 style="text-align: center;"> Web Page B</h1> </div>		
-
+	
 		<div class="container-fluid">
 			<ul class="nav nav-tabs">			
 			  
@@ -48,33 +47,62 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
+					<img src="image1.jpg" class="img-fluid" style="width:250px;height:250px;">
 					<h3> First </h3>
 					<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 						The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 				</div>
 				<div class="col-md-3">
-					<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
+					<img src="image1.jpg" class="img-fluid" style="width:250px;height:250px;">
 					<h3> Second </h3>
 					<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 					The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 				</div>
 				<div class="col-md-3">
-					<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
+					<img src="image1.jpg" class="img-fluid" style="width:250px;height:250px;">
 					<h3> Third </h3>
 					<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 					The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 
 				</div>
 				<div class="col-md-3">
-				<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
+				<img src="image1.jpg" class="img-fluid" style="width:250px;height:250px;">
 				<h3> Fourth </h3>
 				<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 				The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 
 				</div>
 			</div>
+		</div><br/><br/><br/>
+		
+		<div class="container">
+			//form here
+			<form>
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+			
+			<form method="post" action="text.php">
+				<div>	
+					<label for="text" >FeedBack</label>
+					<textarea class="form-control" id="text" name="text" row="3" style="min-width 100%"></textarea>
+				</div>
+				
+				<input class="btn btn-success" id="submit" name="submit" type="submit" value="Drop into Box"></input>			
+			</form>
+		
 		</div>
+	
 	</body>
 	
 </html>
