@@ -2,13 +2,17 @@
 	<head>
 		<title> "glyphicon glyphicon-search" </title>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+					integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+					integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		
 	</head>
 	<body>
@@ -43,27 +47,27 @@
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3">
-					<img src="image1.jpg" class="img-rounded" style="width:130px;height:130px;">
+				<div class="col-md-3">
+					<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
 					<h3> First </h3>
 					<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 						The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 				</div>
-				<div class="col-sm-3">
-					<img src="image1.jpg" class="img-rounded" style="width:130px;height:130px;">
+				<div class="col-md-3">
+					<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
 					<h3> Second </h3>
 					<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 					The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 				</div>
-				<div class="col-sm-3">
-					<img src="image1.jpg" class="img-rounded" style="width:130px;height:130px;">
+				<div class="col-md-3">
+					<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
 					<h3> Third </h3>
 					<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 					The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
 
 				</div>
-				<div class="col-sm-3">
-				<img src="image1.jpg" class="img-rounded" style="width:130px;height:130px;">
+				<div class="col-md-3">
+				<img src="image1.jpg" class="img-rounded" style="width:250px;height:250px;">
 				<h3> Fourth </h3>
 				<p> AGE ACTION IRELAND is urging TDs and Senators to push forward with legislation that would abolish mandatory retirement in Ireland.
 				The organisation has said the current situation – where many companies require employees to retire on reaching a certain age – has led to more 65-year-olds being on the dole than any other age group. </p>
