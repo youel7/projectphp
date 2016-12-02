@@ -92,7 +92,7 @@
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
 			
-			<form method="post" action="text.php">
+			<form method="post" action="php/text.php">
 				<div>	
 					<label for="text" >FeedBack</label>
 					<textarea class="form-control" id="text" name="text" row="3" style="min-width 100%"></textarea>
