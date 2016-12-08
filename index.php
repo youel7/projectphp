@@ -99,10 +99,41 @@
 				</div>
 				
 				<input class="btn btn-success" id="submit" name="submit" type="submit" value="Drop into Box"></input>			
-			</form>
+				<div class="container">
+					
+				<select	class="custom-select"	id="module"	name="module">
+								<option	value="WAD">Web	Application	Development</option>
+								<option	value="AI">Introduction	to	Artificial	Intelligence</option>
+								<option	value="BDA">Business	Data	Analytics</option>
+					</select>
+				</div>
+				<div	class="form-group">
+						<label	for="semester">Semester:	</label>
+						<select	class="custom-select"	id="semester"	name="semester">
+								<option	value="Sem1_2016-17">Sem	1,	2016/17</option>
+								<option	value="Sem2_2017">Sem	2,	2017</option>
+								<option	value="Sem1_2017-18">Sem	1,	2017/18</option>
+					</select>
+				</div>
+				
+				<div	class="form-group">
+						<label	for="feedback-ta-label">Feedback:	</label>
+						<textarea	class="form-control"	id="feedback-textarea"	rows="3"	style="min-width:	100%"></textarea>
+				</div>
+				
+				<div	class="form-group">
+						<label	class="radio-inline"><input	type="radio"	name="rating"	value="1">:((</label>
+						<label	class="radio-inline"><input	type="radio"	name="rating"	value="2">:(</label>
+						<label	class="radio-inline"><input	type="radio"	name="rating"	value="3">:|</label>	
+						<label	class="radio-inline"><input	type="radio"	name="rating"	value="4">:)</label>
+						<label	class="radio-inline"><input	type="radio"	name="rating"	value="5">:))</label>	
+				</div>
+				
+				<button	id="submit" name="submit" type="submit"	class="btn	btn-default">Drop	into	Box</button>	
+				</div>
+			</form>		
+		</div>	
+
+</body>
 		
-		</div>
-	
-	</body>
-	
 </html>
